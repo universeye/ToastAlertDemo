@@ -14,6 +14,7 @@
 		BF78BBC42B4ABB2F00DD0D59 /* ToastAlertDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78BBC32B4ABB2F00DD0D59 /* ToastAlertDemoTests.swift */; };
 		BF78BBCE2B4ABB2F00DD0D59 /* ToastAlertDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78BBCD2B4ABB2F00DD0D59 /* ToastAlertDemoUITests.swift */; };
 		BF78BBD02B4ABB2F00DD0D59 /* ToastAlertDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78BBCF2B4ABB2F00DD0D59 /* ToastAlertDemoUITestsLaunchTests.swift */; };
+		BF78BBDD2B4ABB3D00DD0D59 /* ToastAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78BBDC2B4ABB3D00DD0D59 /* ToastAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BF78BBC92B4ABB2F00DD0D59 /* ToastAlertDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastAlertDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF78BBCD2B4ABB2F00DD0D59 /* ToastAlertDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastAlertDemoUITests.swift; sourceTree = "<group>"; };
 		BF78BBCF2B4ABB2F00DD0D59 /* ToastAlertDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastAlertDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF78BBDC2B4ABB3D00DD0D59 /* ToastAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BF78BBB22B4ABB2E00DD0D59 /* ToastAlertDemoApp.swift */,
 				BF78BBB42B4ABB2E00DD0D59 /* ContentView.swift */,
+				BF78BBDC2B4ABB3D00DD0D59 /* ToastAlertView.swift */,
 				BF78BBB62B4ABB2F00DD0D59 /* Assets.xcassets */,
 				BF78BBB82B4ABB2F00DD0D59 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF78BBB52B4ABB2E00DD0D59 /* ContentView.swift in Sources */,
+				BF78BBDD2B4ABB3D00DD0D59 /* ToastAlertView.swift in Sources */,
 				BF78BBB32B4ABB2E00DD0D59 /* ToastAlertDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
